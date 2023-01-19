@@ -67,7 +67,7 @@ export default function Home() {
 								</div>
 								<div className="flex flex-wrap gap-3">
 									<Link className="btn btn-dark" href="/contact">
-										Let’s Discuss
+										Let&apos;s Discuss
 									</Link>
 								</div>
 							</div>
