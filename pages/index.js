@@ -61,8 +61,8 @@ export default function Home() {
 								</div>
 								<div className="mb-8 text-lg font-light text-slate-700 dark:text-slate-200 md:mb-10 md:text-xl lg:text-xl 2xl:text-2xl">
 									<p>
-										Choosing the right digital solutions for your business's
-										needs
+										Choosing the right digital solutions for your
+										business&apos;s needs
 									</p>
 								</div>
 								<div className="flex flex-wrap gap-3">
@@ -182,9 +182,9 @@ export default function Home() {
 							<p className="mt-2 text-gray-800 md:text-lg">
 								At Pixelsbit, we offer a wide range of services to help our
 								clients achieve their goals and grow their business. Whether
-								you're looking to build a new website, improve your existing
-								website, or promote your business online, our team of expert
-								designers and developers are here to help.
+								you&apos;re looking to build a new website, improve your
+								existing website, or promote your business online, our team of
+								expert designers and developers are here to help.
 							</p>
 						</div>
 						<div className="mt-4 grid-cols-3 gap-x-6 md:grid">
@@ -261,14 +261,14 @@ export default function Home() {
 							<blockquote className="mt-10">
 								<div className="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-900">
 									<p>
-										&ldquo;Pixelsbit exceeded our expectations in terms of both
+										&apos;Pixelsbit exceeded our expectations in terms of both
 										website design and customer service. They worked closely
 										with us to understand our needs and goals and then created a
 										website that exceeded our expectations. We are thrilled with
 										the final result and have received many positive comments
 										from our customers. We highly recommend Pixelsbit to any
 										business looking for professional website design and
-										development services.&rdquo;
+										development services.&apos;
 									</p>
 								</div>
 								<footer className="mt-8">
@@ -310,8 +310,8 @@ export default function Home() {
 						</h2>
 						<div className="md:w-5/12">
 							<p className="mt-2 font-light text-gray-800 md:text-lg">
-								We've worked on numerous intriguing projects with some fantastic
-								firms, but we won't name them all.
+								We&apos;ve worked on numerous intriguing projects with some
+								fantastic firms, but we won&apos;t name them all.
 								<span className="font-normal">Here are a few highlights</span>.
 							</p>
 						</div>
