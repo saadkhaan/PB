@@ -311,7 +311,7 @@ export default function Home() {
 						<div className="md:w-5/12">
 							<p className="mt-2 font-light text-gray-800 md:text-lg">
 								We've worked on numerous intriguing projects with some fantastic
-								firms, but we won't name them all.{" "}
+								firms, but we won't name them all.
 								<span className="font-normal">Here are a few highlights</span>.
 							</p>
 						</div>
