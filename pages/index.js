@@ -5,6 +5,7 @@ import PortfolioCard from "../components/PortfolioCard";
 //import PortfolioCard from "../components/PortfolioCard";
 import ServiceCard from "../components/ServiceCard";
 import Scroller from "../components/Scroller";
+import CallToAction from "../components/CallToAction";
 //import car from "../public/car.png";
 
 // const servicesTop = [
@@ -56,9 +57,8 @@ export default function Home() {
 					<div className="container">
 						<div className="relative md:grid md:grid-cols-2">
 							<div className="flex h-80 max-w-4xl flex-col justify-center md:h-[65vh]">
-								<div className="mb-4 text-4xl font-medium leading-none tracking-tight text-slate-900 dark:text-slate-50 md:mb-6 md:text-5xl lg:text-6xl 2xl:text-7xl">
-									<h1>Digital Solutions for Modern Businesses</h1>
-								</div>
+								<h1>Digital Solutions for Modern Businesses</h1>
+
 								<div className="mb-8 text-lg font-light text-slate-700 dark:text-slate-200 md:mb-10 md:text-xl lg:text-xl 2xl:text-2xl">
 									<p>
 										Choosing the right digital solutions for your
@@ -398,6 +398,9 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
+				</section>
+				<section className="container">
+					<CallToAction />
 				</section>
 			</main>
 		</>

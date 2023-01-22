@@ -9,6 +9,9 @@
 } */
 
 @layer components {
+	body {
+		@apply selection:bg-green-300;
+	}
 	.btn {
 		@apply rounded-md bg-green-500 px-6 py-4 font-medium shadow-3xl shadow-green-500/50 transition-all duration-200 hover:text-white hover:shadow-md;
 	}
@@ -30,6 +33,16 @@
 	}
 	.active {
 		@apply text-green-500;
+	}
+
+	h1 {
+		@apply mb-4 text-4xl font-medium leading-none tracking-tight text-slate-900 dark:text-slate-50 md:mb-6 md:text-5xl lg:text-6xl 2xl:text-7xl;
+	}
+	h2 {
+		@apply text-3xl font-medium text-gray-900 md:text-5xl 2xl:text-6xl;
+	}
+	p {
+		@apply mb-4;
 	}
 }
 .marquee {

@@ -6,7 +6,7 @@ export default function Navbar() {
 	const [navbar, setNavbar] = useState(false);
 	const router = useRouter();
 	return (
-		<nav className="w-full border-b border-b-gray-200 bg-gray-50 shadow">
+		<nav className="w-full border-b border-b-gray-200 bg-gray-50 md:sticky md:top-0 md:z-10 md:bg-gray-50/50 md:shadow-sm md:backdrop-blur-lg">
 			<div className="container mx-auto justify-between px-4 md:flex md:items-center">
 				<div className="flex items-center justify-between py-3 md:block md:py-5">
 					<div className="w-40">
