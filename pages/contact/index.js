@@ -89,8 +89,8 @@ export default function Example() {
 							Contact us
 						</h2>
 						<p className="mt-4 text-lg leading-6 text-gray-500">
-							Let's set things in motion! We're excited to hear more about you
-							and your concepts.
+							Let&apos;s set things in motion! We&apos;re excited to hear more
+							about you and your concepts.
 						</p>
 					</div>
 					<div className="mt-12">
@@ -220,7 +220,7 @@ export default function Example() {
 							</div>
 							<div className="sm:col-span-2">
 								<button type="submit" className="btn btn-dark w-full">
-									Let's talk
+									Let&apos;s talk
 								</button>
 							</div>
 						</form>

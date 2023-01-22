@@ -39,23 +39,23 @@ export default function Services() {
 						<h2 className="mb-2">Web Design and Development Services</h2>
 						<p>
 							Our web design process starts with an initial consultation to
-							understand our clients' needs and goals. We work closely with our
-							clients to create a custom website design that reflects their
+							understand our clients&apos; needs and goals. We work closely with
+							our clients to create a custom website design that reflects their
 							brand and meets the needs of their customers. Once the design is
 							approved, our team of developers will bring the design to life
 							using the latest web development technologies.
 						</p>
 						<p>
 							We understand the importance of a website that looks great and
-							functions well. That's why we take the time to test and optimize
-							our clients' websites for speed, usability and accessibility. We
-							also make sure that our client's website is mobile-friendly,
-							responsive and optimized for search engines.
+							functions well. That&apos;s why we take the time to test and
+							optimize our clients&apos; websites for speed, usability and
+							accessibility. We also make sure that our client&apos;s website is
+							mobile-friendly, responsive and optimized for search engines.
 						</p>
 						<p>
 							In addition to website design and development, we also offer
 							ongoing website maintenance and support services to ensure that
-							our clients' websites stay up-to-date and secure.
+							our clients&apos; websites stay up-to-date and secure.
 						</p>
 					</div>
 					<div className="md:w-6/12">dummy</div>
@@ -112,14 +112,15 @@ export default function Services() {
 					<div className="content md:w-6/12">
 						<h2 className="mb-2">Video Editing Services</h2>
 						<p>
-							In today's digital landscape, videos are becoming increasingly
-							important for businesses of all sizes. That's why we offer video
-							editing services to help our clients create engaging and
-							professional videos that help them stand out and connect with
-							their audience. Whether it's a promotional video, a product demo,
-							or a company overview, our team has the skills and experience to
-							help our clients create high-quality videos that capture their
-							message and deliver it to their audience.
+							In today&apos;s digital landscape, videos are becoming
+							increasingly important for businesses of all sizes. That&apos;s
+							why we offer video editing services to help our clients create
+							engaging and professional videos that help them stand out and
+							connect with their audience. Whether it&apos;s a promotional
+							video, a product demo, or a company overview, our team has the
+							skills and experience to help our clients create high-quality
+							videos that capture their message and deliver it to their
+							audience.
 						</p>
 
 						<p>
