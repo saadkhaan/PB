@@ -58,7 +58,7 @@ export default function Services() {
 							our clients&apos; websites stay up-to-date and secure.
 						</p>
 					</div>
-					<div className="md:w-6/12">dummy</div>
+					<div className="md:w-6/12">Show Image</div>
 				</div>
 			</section>
 
