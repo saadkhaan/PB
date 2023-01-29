@@ -7,6 +7,7 @@ import ServiceCard from "../components/ServiceCard";
 import Scroller from "../components/Scroller";
 import CallToAction from "../components/CallToAction";
 //import car from "../public/car.png";
+import { motion } from "framer-motion";
 
 // const servicesTop = [
 // 	{ id: 1, name: "Designs" },
@@ -73,7 +74,7 @@ export default function Home() {
 							</div>
 
 							<div className="hidden w-48 self-end md:flex md:w-full md:pt-4">
-								<svg
+								<motion.svg
 									width="100%"
 									viewBox="0 0 691 671"
 									fill="none"
@@ -83,13 +84,24 @@ export default function Home() {
 										d="M465.893 454.305L690 805.233H482.57L349.496 575.914L209.82 805.233H1L232.751 449.093L26.3641 107.199H232.751L351.928 321.23L480.138 107.199H683.746L465.893 454.305V454.305Z"
 										fill="#F3F4F6"
 									/>
-									<path
+									<motion.path
 										d="M465.893 348.332L690 699.259H482.57L349.496 469.94L209.82 699.259H1L232.751 343.12L26.3641 1.22568H232.751L351.928 215.257L480.138 1.22568H683.746L465.893 348.332V348.332Z"
 										stroke="#9CA3AF"
 										strokeWidth="0.5"
 										strokeMiterlimit="10"
+										initial={{
+											pathLength: 0,
+										}}
+										animate={{
+											pathLength: [0, 1],
+										}}
+										transition={{
+											duration: 4,
+											ease: "easeInOut",
+										}}
+										className="pointer-events-none"
 									/>
-								</svg>
+								</motion.svg>
 							</div>
 							<div className="absolute bottom-0 -right-20  w-48 md:hidden">
 								<svg
