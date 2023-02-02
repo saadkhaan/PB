@@ -73,7 +73,7 @@ export default function Services() {
 				</div>
 			</section>
 
-			<section className="bg-gray-50 py-8 md:py-32">
+			<section className="bg-white py-8 md:py-32">
 				<div className="container md:flex md:gap-x-12">
 					<div className="content flex-1">
 						<h2 className="mb-2">Web Design and Development Services</h2>
@@ -143,7 +143,7 @@ export default function Services() {
 				</div>
 			</section>
 
-			<section className=" py-8 md:py-32">
+			<section className=" bg-gray-50 py-8 md:py-32">
 				<div className="container md:flex md:gap-x-12">
 					<div className="content flex-1">
 						<h2 className="mb-2">Digital Marketing Services</h2>
@@ -210,7 +210,7 @@ export default function Services() {
 				</div>
 			</section>
 
-			<section className=" bg-gray-50 py-8 md:py-32">
+			<section className=" bg-white py-8 md:py-32">
 				<div className="container">
 					<div className="content md:w-6/12">
 						<h2 className="mb-2">Video Editing Services</h2>
