@@ -185,7 +185,7 @@ export default function Services() {
 							</li>
 						</ul>
 					</div>
-					<div className="md:w-6/12">
+					<div className="mt-4 md:mt-0 md:w-6/12">
 						<article>
 							<h3 className="mb-2 text-3xl font-medium text-gray-900">
 								Page speed optimization
