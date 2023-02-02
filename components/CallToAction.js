@@ -47,7 +47,7 @@ export default function CallToAction() {
 						<div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
 							<a
 								className="flex items-center space-x-2 rounded-md bg-green-500 px-6 py-3 transition-all duration-200 hover:scale-110 hover:text-gray-900"
-								href="#"
+								href="mailto:saad@pixelsbit.com"
 							>
 								<span className="font-medium">Start a Project</span>
 								<svg
