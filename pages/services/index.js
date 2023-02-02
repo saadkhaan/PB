@@ -17,7 +17,7 @@ export default function Services() {
 			</Head>
 
 			<section className="bg-gradient-to-br from-white to-gray-100 py-8 dark:bg-gradient-to-tr dark:from-gray-900 dark:to-gray-700">
-				<div className="container items-center md:grid md:h-[65vh] md:grid-cols-2">
+				<div className="container items-center md:grid md:min-h-[65vh] md:grid-cols-2 md:gap-x-12">
 					<div>
 						<h1>Web Design, Development & Digital Marketing Services</h1>
 						<p className="mt-0">
@@ -30,11 +30,51 @@ export default function Services() {
 							other CSS and JavaScript frameworks.
 						</p>
 					</div>
+					<div className="space-y-6">
+						<article className="rounded-md border-b bg-white p-4">
+							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+								Marketing websites
+							</h3>
+							<p>
+								Experience the power of a brand-aligned and fast website,
+								designed and built by us.
+							</p>
+						</article>
+						<article className="rounded-md border-b bg-white p-4">
+							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+								Headless commerce
+							</h3>
+							<p>
+								We assist brands in delivering a superior online shopping
+								experience, from conceptualization to code implementation.
+							</p>
+						</article>
+						<article className="rounded-md border-b bg-white p-4">
+							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+								Web applications
+							</h3>
+							<p>
+								With years of experience designing and developing web
+								applications, we produce trustworthy, quick, and user-friendly
+								solutions.
+							</p>
+						</article>
+						<article className="rounded-md border-b bg-white p-4">
+							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+								Mobile applications
+							</h3>
+							<p>
+								We offer comprehensive services, including UX design,
+								development, and ongoing support and maintenance, to deliver
+								top-notch apps for various platforms and devices.
+							</p>
+						</article>
+					</div>
 				</div>
 			</section>
 
 			<section className="bg-gray-50 py-8 md:py-32">
-				<div className="container md:flex">
+				<div className="container md:flex md:gap-x-12">
 					<div className="content flex-1">
 						<h2 className="mb-2">Web Design and Development Services</h2>
 						<p>
@@ -58,13 +98,54 @@ export default function Services() {
 							our clients&apos; websites stay up-to-date and secure.
 						</p>
 					</div>
-					<div className="md:w-6/12">Show Image</div>
+					<div className="md:w-6/12">
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								Branding
+							</h3>
+							<p>
+								We establish brand guidelines, covering everything from logo
+								creation to visual identity, to help you connect with and expand
+								your customer base.
+							</p>
+						</article>
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								UX and UI design
+							</h3>
+							<p>
+								Our goal is to craft the best user experience for your target
+								audience, both on the web and mobile, by creating beautiful and
+								functional interfaces.
+							</p>
+						</article>
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								Backend development
+							</h3>
+							<p>
+								Pixelsbit specializes in creating robust backends with a modern
+								microservices architecture, designed to automatically scale
+								based on storage and usage needs.
+							</p>
+						</article>
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								Frontend development
+							</h3>
+							<p>
+								From startups to enterprises, companies turn to Pixelsbit's
+								frontend experts to create engaging and functional interfaces
+								for their web and mobile projects.
+							</p>
+						</article>
+					</div>
 				</div>
 			</section>
 
 			<section className=" py-8 md:py-32">
-				<div className="container">
-					<div className="content md:w-6/12">
+				<div className="container md:flex md:gap-x-12">
+					<div className="content flex-1">
 						<h2 className="mb-2">Digital Marketing Services</h2>
 						<p>
 							Pixelsbit also offers a range of digital marketing services to
@@ -103,6 +184,28 @@ export default function Services() {
 								and drive sales.
 							</li>
 						</ul>
+					</div>
+					<div className="md:w-6/12">
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								Page speed optimization
+							</h3>
+							<p>
+								We establish brand guidelines, covering everything from logo
+								creation to visual identity, to help you connect with and expand
+								your customer base.
+							</p>
+						</article>
+						<article>
+							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+								Technical SEO
+							</h3>
+							<p>
+								We perform SEO audits and make the necessary modifications to
+								websites and e-commerce platforms to improve their ranking on
+								Google and other search engine results pages (SERPs).
+							</p>
+						</article>
 					</div>
 				</div>
 			</section>

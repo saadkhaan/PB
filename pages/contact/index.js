@@ -1,13 +1,6 @@
 import Head from "next/head";
-import { useState } from "react";
 
-function classNames(...classes) {
-	return classes.filter(Boolean).join(" ");
-}
-
-export default function Example() {
-	const [agreed, setAgreed] = useState(false);
-
+export default function Contact() {
 	return (
 		<>
 			<Head>
@@ -97,6 +90,7 @@ export default function Example() {
 						<form
 							action="#"
 							method="POST"
+							onsubmit="validateFormWithJS()"
 							className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
 						>
 							<div>
