@@ -96,7 +96,7 @@ export default function Home() {
 											pathLength: [0, 1],
 										}}
 										transition={{
-											duration: 4,
+											duration: 2,
 											ease: "easeInOut",
 										}}
 										className="pointer-events-none"

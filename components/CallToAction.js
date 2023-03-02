@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CallToAction() {
 	return (
 		<div className="bg-white">
@@ -45,9 +47,9 @@ export default function CallToAction() {
 							any longer, reach out to us and start seeing results.
 						</p>
 						<div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-							<a
-								className="flex items-center space-x-2 rounded-md bg-green-500 px-6 py-3 transition-all duration-200 hover:scale-110 hover:text-gray-900"
-								href="mailto:saad@pixelsbit.com"
+							<Link
+								className="btn btn-dark flex space-x-2 bg-green-500 text-black hover:bg-gray-100 hover:text-black"
+								href="/contact"
 							>
 								<span className="font-medium">Start a Project</span>
 								<svg
@@ -64,7 +66,7 @@ export default function CallToAction() {
 										d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
 									/>
 								</svg>
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="relative mt-16 h-80 lg:mt-8">

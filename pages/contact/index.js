@@ -1,6 +1,20 @@
+import { useState } from "react";
 import Head from "next/head";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
+	const [state, handleSubmit] = useForm("mnqlglqj");
+	if (state.succeeded) {
+		return (
+			<section className="flex items-center py-72">
+				<div className="container text-center">
+					<h2 className="mb-6">Thank you.</h2>
+					<p>Your form has been received and I will contact you very soon!</p>
+				</div>
+			</section>
+		);
+	}
+
 	return (
 		<>
 			<Head>
@@ -88,9 +102,8 @@ export default function Contact() {
 					</div>
 					<div className="mt-12">
 						<form
-							action="#"
 							method="POST"
-							onsubmit="validateFormWithJS()"
+							onSubmit={handleSubmit}
 							className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
 						>
 							<div>
@@ -110,6 +123,11 @@ export default function Contact() {
 										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
+								<ValidationError
+									prefix="Email"
+									field="email"
+									errors={state.errors}
+								/>
 							</div>
 							<div>
 								<label
@@ -127,6 +145,11 @@ export default function Contact() {
 										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
+								<ValidationError
+									prefix="Message"
+									field="message"
+									errors={state.errors}
+								/>
 							</div>
 							<div className="sm:col-span-2">
 								<label
@@ -144,6 +167,11 @@ export default function Contact() {
 										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
+								<ValidationError
+									prefix="Message"
+									field="message"
+									errors={state.errors}
+								/>
 							</div>
 							<div className="sm:col-span-2">
 								<label
@@ -162,38 +190,11 @@ export default function Contact() {
 										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
-							</div>
-							<div className="sm:col-span-2">
-								<label
-									htmlFor="phone-number"
-									className="block text-sm font-medium text-gray-700"
-								>
-									Phone Number
-								</label>
-								<div className="relative mt-1 rounded-md shadow-sm">
-									<div className="absolute inset-y-0 left-0 flex items-center">
-										<label htmlFor="country" className="sr-only">
-											Country
-										</label>
-										<select
-											id="country"
-											name="country"
-											className="h-full rounded-md border-transparent bg-transparent py-0 pl-4 pr-8 text-gray-500 focus:border-indigo-500 focus:ring-indigo-500"
-										>
-											<option>US</option>
-											<option>CA</option>
-											<option>EU</option>
-										</select>
-									</div>
-									<input
-										type="text"
-										name="phone-number"
-										id="phone-number"
-										autoComplete="tel"
-										className="block w-full rounded-md border-gray-300 py-3 px-4 pl-20 focus:border-indigo-500 focus:ring-indigo-500"
-										placeholder="+1 (555) 987-6543"
-									/>
-								</div>
+								<ValidationError
+									prefix="Email"
+									field="email"
+									errors={state.errors}
+								/>
 							</div>
 							<div className="sm:col-span-2">
 								<label
@@ -211,9 +212,18 @@ export default function Contact() {
 										defaultValue={""}
 									/>
 								</div>
+								<ValidationError
+									prefix="Email"
+									field="email"
+									errors={state.errors}
+								/>
 							</div>
 							<div className="sm:col-span-2">
-								<button type="submit" className="btn btn-dark w-full">
+								<button
+									type="submit"
+									className="btn btn-dark w-full"
+									disabled={state.submitting}
+								>
 									Let&apos;s talk
 								</button>
 							</div>
