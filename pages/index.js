@@ -221,10 +221,10 @@ export default function Home() {
 
 				<section className="overflow-hidden bg-white py-12 md:py-20 lg:py-32">
 					<div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
-						<h2 className="text-center text-6xl font-medium">
+						<h2 className="text-3xl font-medium md:text-center md:text-6xl">
 							What Our Clients Say About Us
 						</h2>
-						<p className="mt-4 text-center text-lg font-light">
+						<p className="mt-4 text-lg font-light md:text-center">
 							See what our satisfied customers have to say about our website
 							design and development services
 						</p>
@@ -271,7 +271,7 @@ export default function Home() {
 								alt="Workcation"
 							/> */}
 							<blockquote className="mt-10">
-								<div className="mx-auto max-w-3xl text-center text-2xl font-medium leading-9 text-gray-900">
+								<div className="mx-auto max-w-3xl text-2xl font-medium leading-9 text-gray-900 md:text-center">
 									<p>
 										&apos;Pixelsbit exceeded our expectations in terms of both
 										website design and customer service. They worked closely
@@ -292,7 +292,7 @@ export default function Home() {
 												alt=""
 											/> */}
 										</div>
-										<div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+										<div className="mt-3 md:mt-0 md:ml-4 md:flex md:items-center md:text-center">
 											<div className="text-base font-medium text-gray-900">
 												M.Pasha
 											</div>

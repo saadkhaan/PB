@@ -32,7 +32,7 @@ export default function CallToAction() {
 							</radialGradient>
 						</defs>
 					</svg>
-					<div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+					<div className="mx-auto max-w-md md:text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
 						<h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
 							Take your online presence to the next level.
 							<br />
@@ -46,7 +46,7 @@ export default function CallToAction() {
 							design, development, and digital marketing services. Don't wait
 							any longer, reach out to us and start seeing results.
 						</p>
-						<div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+						<div className="mt-10 flex items-center gap-x-6 md:justify-center lg:justify-start">
 							<Link
 								className="btn btn-dark flex space-x-2 bg-green-500 text-black hover:bg-gray-100 hover:text-black"
 								href="/contact"

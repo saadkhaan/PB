@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ServiceCard({ icon, title, content }) {
 	return (
 		<div className="group">
-			<div className="flex flex-col space-y-2 rounded-md py-4 md:p-4 md:group-hover:bg-green-100">
+			<div className="flex flex-col space-y-2 rounded-md py-4 md:p-4 md:group-hover:bg-gray-100">
 				<Image
 					src={icon}
 					alt="coding languages icons"
