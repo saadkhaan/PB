@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import { useForm, ValidationError } from "@formspree/react";
+import Link from "next/link";
 
 export default function Contact() {
 	const [state, handleSubmit] = useForm("mnqlglqj");
@@ -26,7 +27,7 @@ export default function Contact() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
+			<div className="overflow-hidden bg-white px-4 py-16 dark:bg-slate-900 sm:px-6 lg:px-8 lg:py-24">
 				<div className="relative mx-auto max-w-xl">
 					<svg
 						className="absolute left-full translate-x-1/2 transform"
@@ -50,7 +51,7 @@ export default function Contact() {
 									y={0}
 									width={4}
 									height={4}
-									className="text-gray-200"
+									className="text-slate-200"
 									fill="currentColor"
 								/>
 							</pattern>
@@ -62,7 +63,7 @@ export default function Contact() {
 						/>
 					</svg>
 					<svg
-						className="absolute right-full bottom-0 -translate-x-1/2 transform"
+						className="absolute bottom-0 right-full -translate-x-1/2 transform"
 						width={404}
 						height={404}
 						fill="none"
@@ -83,7 +84,7 @@ export default function Contact() {
 									y={0}
 									width={4}
 									height={4}
-									className="text-gray-200"
+									className="text-slate-200"
 									fill="currentColor"
 								/>
 							</pattern>
@@ -95,10 +96,10 @@ export default function Contact() {
 						/>
 					</svg>
 					<div className="text-center">
-						<h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+						<h2 className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-slate-300 sm:text-4xl">
 							Contact us
 						</h2>
-						<p className="mt-4 text-lg leading-6 text-gray-500">
+						<p className="mt-4 text-lg leading-6 text-slate-500 dark:text-slate-300">
 							Let&apos;s set things in motion! We&apos;re excited to hear more
 							about you and your concepts.
 						</p>
@@ -112,7 +113,7 @@ export default function Contact() {
 							<div>
 								<label
 									htmlFor="first-name"
-									className="block text-sm font-medium text-gray-700"
+									className="block text-sm font-medium "
 								>
 									First name
 								</label>
@@ -123,7 +124,7 @@ export default function Contact() {
 										id="first-name"
 										autoComplete="given-name"
 										required
-										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+										className="block w-full rounded-md border-slate-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
 								<ValidationError
@@ -135,7 +136,7 @@ export default function Contact() {
 							<div>
 								<label
 									htmlFor="last-name"
-									className="block text-sm font-medium text-gray-700"
+									className="block text-sm font-medium "
 								>
 									Last name
 								</label>
@@ -145,7 +146,7 @@ export default function Contact() {
 										name="last-name"
 										id="last-name"
 										autoComplete="family-name"
-										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+										className="block w-full rounded-md border-slate-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
 								<ValidationError
@@ -155,10 +156,7 @@ export default function Contact() {
 								/>
 							</div>
 							<div className="sm:col-span-2">
-								<label
-									htmlFor="company"
-									className="block text-sm font-medium text-gray-700"
-								>
+								<label htmlFor="company" className="block text-sm font-medium ">
 									Company
 								</label>
 								<div className="mt-1">
@@ -167,7 +165,7 @@ export default function Contact() {
 										name="company"
 										id="company"
 										autoComplete="organization"
-										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+										className="block w-full rounded-md border-slate-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
 								<ValidationError
@@ -177,10 +175,7 @@ export default function Contact() {
 								/>
 							</div>
 							<div className="sm:col-span-2">
-								<label
-									htmlFor="email"
-									className="block text-sm font-medium text-gray-700"
-								>
+								<label htmlFor="email" className="block text-sm font-medium ">
 									Email
 								</label>
 								<div className="mt-1">
@@ -190,7 +185,7 @@ export default function Contact() {
 										type="email"
 										autoComplete="email"
 										required
-										className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+										className="block w-full rounded-md border-slate-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 									/>
 								</div>
 								<ValidationError
@@ -200,10 +195,7 @@ export default function Contact() {
 								/>
 							</div>
 							<div className="sm:col-span-2">
-								<label
-									htmlFor="message"
-									className="block text-sm font-medium text-gray-700"
-								>
+								<label htmlFor="message" className="block text-sm font-medium ">
 									Message
 								</label>
 								<div className="mt-1">
@@ -211,7 +203,7 @@ export default function Contact() {
 										id="message"
 										name="message"
 										rows={4}
-										className="block w-full rounded-md border border-gray-300 py-3 px-4 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+										className="block w-full rounded-md border border-slate-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
 										defaultValue={""}
 									/>
 								</div>
@@ -231,6 +223,9 @@ export default function Contact() {
 								</button>
 							</div>
 						</form>
+						<div className="mt-12 w-full text-center text-slate-900 dark:text-slate-400">
+							<Link href="/">Back to home</Link>
+						</div>
 					</div>
 				</div>
 			</div>

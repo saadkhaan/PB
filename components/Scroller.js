@@ -56,7 +56,7 @@ const ParallaxText = ({ children, baseVelocity = 100 }) => {
 	 * dynamically generated number of children.
 	 */
 	return (
-		<div className="parallax flex flex-nowrap overflow-hidden whitespace-nowrap">
+		<div className="parallax flex flex-nowrap overflow-hidden whitespace-nowrap py-2">
 			<motion.div
 				className="scroller m-0 flex flex-nowrap whitespace-nowrap font-medium md:text-7xl"
 				style={{ x }}

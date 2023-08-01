@@ -16,7 +16,7 @@ export default function Services() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<section className="bg-gradient-to-br from-white to-gray-100 py-8 dark:bg-gradient-to-tr dark:from-gray-900 dark:to-gray-700">
+			<section className="bg-gradient-to-br from-white to-gray-100 py-8 dark:bg-gradient-to-tr dark:from-slate-900 dark:to-slate-800">
 				<div className="container items-center md:grid md:min-h-[65vh] md:grid-cols-2 md:gap-x-12">
 					<div>
 						<h1>Web Design, Development & Digital Marketing Services</h1>
@@ -31,8 +31,8 @@ export default function Services() {
 						</p>
 					</div>
 					<div className="space-y-6">
-						<article className="rounded-md border-b bg-white p-4">
-							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+						<article className="rounded-md border-b bg-white p-4 dark:border-gray-600 dark:bg-gray-800">
+							<h3 className="text-lg font-semibold md:text-4xl md:font-medium">
 								Marketing websites
 							</h3>
 							<p>
@@ -40,8 +40,8 @@ export default function Services() {
 								designed and built by us.
 							</p>
 						</article>
-						<article className="rounded-md border-b bg-white p-4">
-							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+						<article className="rounded-md border-b bg-white p-4 dark:border-gray-600 dark:bg-gray-800">
+							<h3 className="text-lg font-semibold text-slate-900 dark:text-slate-300 md:text-4xl md:font-medium">
 								Headless commerce
 							</h3>
 							<p>
@@ -49,8 +49,8 @@ export default function Services() {
 								experience, from conceptualization to code implementation.
 							</p>
 						</article>
-						<article className="rounded-md border-b bg-white p-4">
-							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+						<article className="rounded-md border-b bg-white p-4 dark:border-gray-600 dark:bg-gray-800">
+							<h3 className="text-lg font-semibold text-slate-900 dark:text-slate-300 md:text-4xl md:font-medium">
 								Web applications
 							</h3>
 							<p>
@@ -59,8 +59,8 @@ export default function Services() {
 								solutions.
 							</p>
 						</article>
-						<article className="rounded-md border-b bg-white p-4">
-							<h3 className="text-lg font-semibold text-gray-900 md:text-4xl md:font-medium">
+						<article className="rounded-md border-b bg-white p-4 dark:border-gray-600 dark:bg-gray-800">
+							<h3 className="text-lg font-semibold text-slate-900 dark:text-slate-300 md:text-4xl md:font-medium">
 								Mobile applications
 							</h3>
 							<p>
@@ -100,9 +100,7 @@ export default function Services() {
 					</div>
 					<div className="md:w-6/12">
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
-								Branding
-							</h3>
+							<h3 className="mb-2 text-3xl font-medium">Branding</h3>
 							<p>
 								We establish brand guidelines, covering everything from logo
 								creation to visual identity, to help you connect with and expand
@@ -110,9 +108,7 @@ export default function Services() {
 							</p>
 						</article>
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
-								UX and UI design
-							</h3>
+							<h3 className="mb-2 text-3xl font-medium">UX and UI design</h3>
 							<p>
 								Our goal is to craft the best user experience for your target
 								audience, both on the web and mobile, by creating beautiful and
@@ -120,9 +116,7 @@ export default function Services() {
 							</p>
 						</article>
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
-								Backend development
-							</h3>
+							<h3 className="mb-2 text-3xl font-medium">Backend development</h3>
 							<p>
 								Pixelsbit specializes in creating robust backends with a modern
 								microservices architecture, designed to automatically scale
@@ -130,7 +124,7 @@ export default function Services() {
 							</p>
 						</article>
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+							<h3 className="mb-2 text-3xl font-medium">
 								Frontend development
 							</h3>
 							<p>
@@ -143,7 +137,7 @@ export default function Services() {
 				</div>
 			</section>
 
-			<section className=" bg-gray-50 py-8 md:py-32">
+			<section className="dms py-8 md:py-32">
 				<div className="container md:flex md:gap-x-12">
 					<div className="content flex-1">
 						<h2 className="mb-2">Digital Marketing Services</h2>
@@ -155,7 +149,7 @@ export default function Services() {
 							develop a comprehensive plan that helps you achieve your goals.
 						</p>
 
-						<h3 className="font-bold">
+						<h3 className="md:text-4xl">
 							Our digital marketing services include:
 						</h3>
 						<ul
@@ -187,7 +181,7 @@ export default function Services() {
 					</div>
 					<div className="mt-4 md:mt-0 md:w-6/12">
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
+							<h3 className="mb-2 text-3xl font-medium">
 								Page speed optimization
 							</h3>
 							<p>
@@ -197,9 +191,7 @@ export default function Services() {
 							</p>
 						</article>
 						<article>
-							<h3 className="mb-2 text-3xl font-medium text-gray-900">
-								Technical SEO
-							</h3>
+							<h3 className="mb-2 text-3xl font-medium">Technical SEO</h3>
 							<p>
 								We perform SEO audits and make the necessary modifications to
 								websites and e-commerce platforms to improve their ranking on
