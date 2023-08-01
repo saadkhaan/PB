@@ -175,7 +175,7 @@ export default function work() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												KGV
+												K-Group
 											</a>
 										</h3>
 										<svg
