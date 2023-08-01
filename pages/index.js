@@ -171,7 +171,7 @@ export default function Home() {
 					</ul>
 				</section> */}
 
-				<section className="services bg-slate-50 py-8 md:py-32">
+				<section className="services  py-8 md:py-32">
 					<div className="container">
 						<h2 className="text-center text-3xl font-medium md:text-6xl">
 							Our Services
@@ -205,7 +205,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="overflow-hidden bg-white py-12 md:py-20 lg:py-32">
+				<section className="overflow-hidden  py-12 md:py-20 lg:py-32">
 					<div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
 						<h2 className="text-3xl font-medium md:text-center md:text-6xl">
 							What Our Clients Say About Us
@@ -301,7 +301,7 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="portfolio bg-slate-50 py-8 md:py-32">
+				<section className="portfolio  py-8 md:py-32">
 					<div className="container">
 						<h2 className="text-3xl font-medium md:text-6xl">Our Work</h2>
 						<div className="md:w-5/12">
