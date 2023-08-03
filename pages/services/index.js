@@ -185,9 +185,10 @@ export default function Services() {
 								Page speed optimization
 							</h3>
 							<p>
-								We establish brand guidelines, covering everything from logo
-								creation to visual identity, to help you connect with and expand
-								your customer base.
+								Page speed optimization is vital for improving user experience,
+								reducing bounce rates, increasing conversions, enhancing SEO
+								rankings, and ensuring overall business success in the digital
+								landscape.
 							</p>
 						</article>
 						<article>

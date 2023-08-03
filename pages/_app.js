@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
 
 	return (
 		<>
-			<ThemeProvider attribute="class">
+			<ThemeProvider>
 				<Head>
 					<link rel="canonical" href={canonicalURL} />
 				</Head>
