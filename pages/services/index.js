@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 export default function Services() {
@@ -99,7 +100,7 @@ export default function Services() {
 						</p>
 					</div>
 					<div className="md:w-6/12">
-						<article>
+						<article className="border-b p-4 dark:border-gray-600">
 							<h3 className="mb-2 text-3xl font-medium">Branding</h3>
 							<p>
 								We establish brand guidelines, covering everything from logo
@@ -107,7 +108,7 @@ export default function Services() {
 								your customer base.
 							</p>
 						</article>
-						<article>
+						<article className="border-b p-4 dark:border-gray-600">
 							<h3 className="mb-2 text-3xl font-medium">UX and UI design</h3>
 							<p>
 								Our goal is to craft the best user experience for your target
@@ -115,7 +116,7 @@ export default function Services() {
 								functional interfaces.
 							</p>
 						</article>
-						<article>
+						<article className="border-b p-4 dark:border-gray-600">
 							<h3 className="mb-2 text-3xl font-medium">Backend development</h3>
 							<p>
 								Pixelsbit specializes in creating robust backends with a modern
@@ -123,7 +124,7 @@ export default function Services() {
 								based on storage and usage needs.
 							</p>
 						</article>
-						<article>
+						<article className="border-b p-4 dark:border-gray-600">
 							<h3 className="mb-2 text-3xl font-medium">
 								Frontend development
 							</h3>
@@ -180,7 +181,7 @@ export default function Services() {
 						</ul>
 					</div>
 					<div className="mt-4 md:mt-0 md:w-6/12">
-						<article>
+						<article className="border-b p-4 dark:border-gray-600">
 							<h3 className="mb-2 text-3xl font-medium">
 								Page speed optimization
 							</h3>
@@ -191,7 +192,7 @@ export default function Services() {
 								landscape.
 							</p>
 						</article>
-						<article>
+						<article className="p-4">
 							<h3 className="mb-2 text-3xl font-medium">Technical SEO</h3>
 							<p>
 								We perform SEO audits and make the necessary modifications to
@@ -204,8 +205,16 @@ export default function Services() {
 			</section>
 
 			<section className=" bg-white py-8 md:py-32">
-				<div className="container">
-					<div className="content md:w-6/12">
+				<div className="container sm:flex">
+					<div className="image mb-4 sm:mb-0 md:w-1/2">
+						<Image
+							src="/video-editor.jpg"
+							width={640}
+							height={427}
+							alt="video editing services"
+						/>
+					</div>
+					<div className="content md:w-1/2">
 						<h2 className="mb-2">Video Editing Services</h2>
 						<p>
 							In today&apos;s digital landscape, videos are becoming
