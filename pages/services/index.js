@@ -149,11 +149,11 @@ export default function Services() {
 							develop a comprehensive plan that helps you achieve your goals.
 						</p>
 
-						<h3 className="md:text-4xl">
+						<h3 className="text-xl md:text-4xl">
 							Our digital marketing services include:
 						</h3>
 						<ul
-							className="list-inside list-disc space-y-4 marker:text-green-500"
+							className="list-inside list-disc space-y-4 text-slate-900 marker:text-green-500"
 							role="list"
 						>
 							<li className="mt-2">
