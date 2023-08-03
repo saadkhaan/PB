@@ -18,7 +18,9 @@ export default function work() {
 			</Head>
 			<section className="portfolio bg-gray-50 py-8 md:py-32">
 				<div className="container">
-					<h2 className="text-3xl font-medium md:text-6xl">Our Work</h2>
+					<h2 className="text-3xl font-medium dark:text-slate-50 md:text-6xl">
+						Our Work
+					</h2>
 					<div className="md:w-5/12">
 						<p className="mt-2 font-light md:text-lg">
 							We&apos;ve worked on numerous intriguing projects with some
@@ -215,7 +217,7 @@ export default function work() {
 										<img
 											src="/limo-front-view.png"
 											alt="Limo service and car rental web design and web development"
-											className="mx-auto w-auto md:-mt-12 md:w-auto"
+											className="mx-auto -mt-4 w-56 md:-mt-12 md:w-auto"
 										/>
 									</div>
 								</div>

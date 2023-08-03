@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import DarkModeToggle from "./DarkModeToggle";
 
 export default function Navbar() {
 	const [navbar, setNavbar] = useState(false);
 	const router = useRouter();
 	return (
-		<nav className="w-full border-b border-b-slate-200 bg-slate-50 dark:border-b-slate-600 md:sticky md:top-0 md:z-10 md:bg-slate-50/70 md:shadow-sm md:backdrop-blur-lg dark:md:bg-slate-900">
+		<nav className="w-full border-b border-b-slate-200 bg-slate-50 dark:border-b-slate-600 md:sticky md:top-0 md:z-10 md:bg-slate-50/75 md:shadow-sm md:backdrop-blur-lg dark:md:bg-slate-900">
 			<div className="container mx-auto justify-between px-4 md:flex md:items-center">
 				<div className="flex items-center justify-between py-3 md:block md:py-5">
 					<div className="w-40">
@@ -140,6 +141,9 @@ export default function Navbar() {
 										</svg>
 									</a>
 								</Link>
+							</li>
+							<li>
+								<DarkModeToggle />
 							</li>
 						</ul>
 					</div>

@@ -2,6 +2,7 @@ import Head from "next/head";
 // import Image from "next/image";
 import Link from "next/link";
 // import PortfolioCard from "../components/PortfolioCard";
+import { useTheme } from "next-themes";
 
 import ServiceCard from "../components/ServiceCard";
 import Scroller from "../components/Scroller";
@@ -9,6 +10,7 @@ import CallToAction from "../components/CallToAction";
 import { motion } from "framer-motion";
 
 export default function Home() {
+	const { theme, setTheme } = useTheme();
 	return (
 		<>
 			<Head>
@@ -173,11 +175,11 @@ export default function Home() {
 
 				<section className="services  py-8 md:py-32">
 					<div className="container">
-						<h2 className="text-center text-3xl font-medium md:text-6xl">
+						<h2 className="text-3xl font-medium md:text-center md:text-6xl">
 							Our Services
 						</h2>
 						<div className="mx-auto md:w-1/2">
-							<p className="mt-2 text-center md:text-lg">
+							<p className="mt-2 md:text-center md:text-lg">
 								At Pixelsbit, we offer a wide range of services to help our
 								clients achieve their goals and grow their business. Whether
 								you&apos;re looking to build a new website, improve your
