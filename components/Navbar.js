@@ -7,7 +7,7 @@ export default function Navbar() {
 	const [navbar, setNavbar] = useState(false);
 	const router = useRouter();
 	return (
-		<nav className="w-full border-b border-b-slate-200 bg-slate-50 dark:border-b-slate-600 md:sticky md:top-0 md:z-10 md:bg-slate-50/75 md:shadow-sm md:backdrop-blur-lg dark:md:bg-slate-900">
+		<nav className="w-full border-b border-b-slate-200 bg-slate-50/75 dark:border-b-slate-600 dark:bg-slate-900 md:sticky md:top-0 md:z-10 md:shadow-sm md:backdrop-blur-lg">
 			<div className="container mx-auto justify-between px-4 md:flex md:items-center">
 				<div className="flex items-center justify-between py-3 md:block md:py-5">
 					<div className="w-40">
@@ -39,7 +39,7 @@ export default function Navbar() {
 					</div>
 					<div className="md:hidden">
 						<button
-							className="rounded-md p-2 text-slate-800 outline-none focus:border focus:border-slate-400"
+							className="mr-4 rounded-md p-2 text-slate-800 outline-none focus:border focus:border-slate-400 dark:text-slate-300"
 							onClick={() => setNavbar(!navbar)}
 						>
 							{navbar ? (
@@ -58,7 +58,7 @@ export default function Navbar() {
 							) : (
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="h-6 w-6 text-slate-800"
+									className="h-6 w-6 text-slate-800 dark:text-slate-300"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -72,6 +72,7 @@ export default function Navbar() {
 								</svg>
 							)}
 						</button>
+						<DarkModeToggle />
 					</div>
 				</div>
 				<div>
@@ -121,30 +122,32 @@ export default function Navbar() {
 									Contact
 								</Link>
 							</li>
-							<li className="group rounded-md border border-slate-200 bg-white text-slate-800 transition-all duration-200 hover:bg-green-500 dark:border-none dark:bg-green-600">
-								<Link href="/contact" legacyBehavior>
-									<a className="flex items-center space-x-2 px-6 py-3 transition-all duration-200 hover:shadow-xl group-hover:text-white dark:text-slate-50">
-										<span>Start a Project</span>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											fill="none"
-											viewBox="0 0 24 24"
-											strokeWidth={1.5}
-											stroke="currentColor"
-											className="h-6 w-6"
-										>
-											<path
-												strokeLinecap="round"
-												strokeLinejoin="round"
-												d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-											/>
-										</svg>
-									</a>
-								</Link>
-							</li>
-							<li>
-								<DarkModeToggle />
-							</li>
+							<div className="flex items-center justify-between md:gap-4">
+								<li className="group rounded-md border border-slate-200 bg-white text-slate-800 transition-all duration-200 hover:bg-green-500 dark:border-none dark:bg-green-600">
+									<Link href="/contact" legacyBehavior>
+										<a className="flex items-center space-x-2 px-6 py-3 transition-all duration-200 hover:shadow-xl group-hover:text-white dark:text-slate-50">
+											<span>Start a Project</span>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="none"
+												viewBox="0 0 24 24"
+												strokeWidth={1.5}
+												stroke="currentColor"
+												className="h-6 w-6"
+											>
+												<path
+													strokeLinecap="round"
+													strokeLinejoin="round"
+													d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+												/>
+											</svg>
+										</a>
+									</Link>
+								</li>
+								<li className="hidden sm:block">
+									<DarkModeToggle />
+								</li>
+							</div>
 						</ul>
 					</div>
 				</div>
