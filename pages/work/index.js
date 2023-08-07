@@ -22,7 +22,7 @@ export default function work() {
 						Our Work
 					</h2>
 					<div className="md:w-5/12">
-						<p className="mt-2 font-light md:text-lg">
+						<p className="mt-2 md:text-lg md:font-light">
 							We&apos;ve worked on numerous intriguing projects with some
 							fantastic firms, but we won&apos;t name them all.
 							<span className="font-normal">Here are a few highlights</span>.

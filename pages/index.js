@@ -28,7 +28,7 @@ export default function Home() {
 						<div className="mb-8 text-4xl font-medium leading-none tracking-tight text-slate-900 dark:text-slate-50 md:text-5xl lg:text-7xl">
 							<h1>Digital Solutions for Modern Businesses</h1>
 						</div>
-						<div className="mb-12 text-lg font-light text-slate-700 dark:text-slate-200 md:text-xl lg:text-2xl">
+						<div className="mb-12 text-lg md:font-light text-slate-700 dark:text-slate-200 md:text-xl lg:text-2xl">
 							<p>
 								Choosing the right digital solutions for your business's needs
 							</p>
@@ -47,7 +47,7 @@ export default function Home() {
 							<div className="flex h-80 max-w-4xl flex-col justify-center md:h-[65vh]">
 								<h1>Digital Solutions for Modern Businesses</h1>
 
-								<div className="mb-8 text-lg font-light text-slate-700 dark:text-slate-200 md:mb-10 md:text-xl lg:text-xl 2xl:text-2xl">
+								<div className="mb-8 text-lg text-slate-700 dark:text-slate-200 md:mb-10 md:text-xl md:font-light lg:text-xl 2xl:text-2xl">
 									<p>
 										Choosing the right digital solutions for your
 										business&apos;s needs
@@ -75,7 +75,7 @@ export default function Home() {
 									<motion.path
 										d="M465.893 348.332L690 699.259H482.57L349.496 469.94L209.82 699.259H1L232.751 343.12L26.3641 1.22568H232.751L351.928 215.257L480.138 1.22568H683.746L465.893 348.332V348.332Z"
 										stroke="#9CA3AF"
-										strokeWidth="0.5"
+										strokeWidth="1"
 										strokeMiterlimit="10"
 										initial={{
 											pathLength: 0,
@@ -87,7 +87,7 @@ export default function Home() {
 											duration: 2,
 											ease: "easeInOut",
 										}}
-										className="pointer-events-none"
+										className="pointer-events-none stroke-slate-400/50 dark:stroke-slate-600"
 									/>
 								</motion.svg>
 							</div>
@@ -181,7 +181,7 @@ export default function Home() {
 							Our Services
 						</h2>
 						<div className="mx-auto md:w-1/2">
-							<p className="mt-2 md:text-center md:text-lg">
+							<p className="mt-2 text-lg md:text-center">
 								At Pixelsbit, we offer a wide range of services to help our
 								clients achieve their goals and grow their business. Whether
 								you&apos;re looking to build a new website, improve your
@@ -214,7 +214,7 @@ export default function Home() {
 						<h2 className="text-3xl font-medium md:text-center md:text-6xl">
 							What Our Clients Say About Us
 						</h2>
-						<p className="mt-4 text-lg font-light md:text-center">
+						<p className="mt-4 text-lg md:text-center md:md:font-light">
 							See what our satisfied customers have to say about our website
 							design and development services
 						</p>
@@ -283,7 +283,7 @@ export default function Home() {
 											/> */}
 										</div>
 										<div className="mt-3 md:ml-4 md:mt-0 md:flex md:items-center md:text-center">
-											<div className="text-base font-medium text-slate-900 dark:text-slate-400">
+											<div className=" font-medium text-slate-900 dark:text-slate-400">
 												M.Pasha
 											</div>
 
@@ -295,7 +295,7 @@ export default function Home() {
 												<path d="M11 0h3L9 20H6l5-20z" />
 											</svg>
 
-											<div className="text-base font-medium text-slate-500">
+											<div className=" font-medium text-slate-500">
 												CEO, Limousine Rental Business Owner
 											</div>
 										</div>
@@ -309,7 +309,7 @@ export default function Home() {
 					<div className="container">
 						<h2 className="text-3xl font-medium md:text-6xl">Our Work</h2>
 						<div className="md:w-5/12">
-							<p className="mt-2 font-light   md:text-lg">
+							<p className="mt-2 text-lg   md:font-light">
 								We&apos;ve worked on numerous intriguing projects with some
 								fantastic firms, but we won&apos;t name them all.
 								<span className="font-normal">Here are a few highlights</span>.
@@ -354,7 +354,7 @@ export default function Home() {
 										</svg>
 									</div>
 
-									<p className="text-base text-slate-400 md:text-lg">
+									<p className=" text-lg text-slate-400">
 										Website Design, Web Development and Social Media Marketing
 									</p>
 								</div>
@@ -397,7 +397,7 @@ export default function Home() {
 											/>
 										</svg>
 									</div>
-									<p className="text-base text-slate-400 md:text-lg">
+									<p className=" text-lg text-slate-400">
 										Website Design and Web Development
 									</p>
 								</div>
