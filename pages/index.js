@@ -323,6 +323,8 @@ export default function Home() {
 											src="/car.png"
 											alt="taxi web design services"
 											className="w-auto md:w-auto"
+											width="714"
+											height="228"
 										/>
 									</div>
 								</div>
@@ -367,6 +369,8 @@ export default function Home() {
 											src="/mic.png"
 											alt="podcast website design and development"
 											className="mx-auto -mt-px w-20 md:-mt-16 md:w-auto"
+											width="156"
+											height="322"
 										/>
 									</div>
 								</div>

@@ -1,4 +1,7 @@
-User-Agent: *
+User-agent: *
 Allow: /
+
+Disallow: /?s={search_term_string}
+Disallow: /?page_id=1069
 
 Sitemap: https://pixelsbit.com/sitemap.xml

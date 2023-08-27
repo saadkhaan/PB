@@ -40,7 +40,8 @@ export default function Navbar() {
 					<div className="md:hidden">
 						<button
 							className="mr-4 rounded-md p-2 text-slate-800 outline-none focus:border focus:border-slate-400 dark:text-slate-300"
-							onClick={() => setNavbar(!navbar)}
+							aria-label="Toggle Main Navigation"
+							onClick={() => setNavbar((prev) => !prev)}
 						>
 							{navbar ? (
 								<svg
@@ -72,6 +73,7 @@ export default function Navbar() {
 								</svg>
 							)}
 						</button>
+
 						<DarkModeToggle />
 					</div>
 				</div>
@@ -86,22 +88,17 @@ export default function Navbar() {
 								<Link
 									href="/"
 									className={router.pathname == "/" ? "active" : ""}
+									onClick={() => setNavbar(false)}
 								>
 									/
 								</Link>
 							</li>
-							{/* <li>
-								<Link
-									href="/about"
-									className={router.pathname == "/about" ? "active" : ""}
-								>
-									About
-								</Link>
-							</li> */}
+
 							<li>
 								<Link
 									href="/services"
 									className={router.pathname == "/services" ? "active" : ""}
+									onClick={() => setNavbar(false)}
 								>
 									Services
 								</Link>
@@ -110,6 +107,7 @@ export default function Navbar() {
 								<Link
 									href="/work"
 									className={router.pathname == "/work" ? "active" : ""}
+									onClick={() => setNavbar(false)}
 								>
 									Work
 								</Link>
@@ -118,6 +116,7 @@ export default function Navbar() {
 								<Link
 									href="/contact"
 									className={router.pathname == "/contact" ? "active" : ""}
+									onClick={() => setNavbar(false)}
 								>
 									Contact
 								</Link>

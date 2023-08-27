@@ -10,15 +10,13 @@ export default function App({ Component, pageProps }) {
 	const canonicalURL = `https://pixelsbit.com/${p}`.split("?")[0];
 
 	return (
-		<>
-			<ThemeProvider>
-				<Head>
-					<link rel="canonical" href={canonicalURL} />
-				</Head>
-				<Layout>
-					<Component {...pageProps} />
-				</Layout>
-			</ThemeProvider>
-		</>
+		<ThemeProvider>
+			<Head>
+				<link rel="canonical" href={canonicalURL} />
+			</Head>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</ThemeProvider>
 	);
 }

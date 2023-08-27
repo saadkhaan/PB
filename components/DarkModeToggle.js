@@ -23,6 +23,7 @@ const DarkModeToggle = () => {
 	return (
 		<button
 			className="focus:outline-none"
+			aria-label="Toggle Day and Night Mode"
 			onClick={() => setDarkMode(!darkMode)}
 		>
 			{darkMode ? (
