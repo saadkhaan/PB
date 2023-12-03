@@ -84,7 +84,7 @@ export default function Home() {
 											pathLength: [0, 1],
 										}}
 										transition={{
-											duration: 2,
+											duration: 5,
 											ease: "easeInOut",
 										}}
 										className="pointer-events-none stroke-slate-400/50 dark:stroke-slate-600"
