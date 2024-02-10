@@ -120,61 +120,6 @@ export default function Home() {
 					<Scroller />
 				</section>
 
-				{/* <section className="services-marquee  space-y-4 py-8">
-					<ul className="flex space-x-20  overflow-hidden text-4xl font-medium uppercase text-slate-400">
-						{servicesTop.map((st) => (
-							<div className="group flex flex-none space-x-12 " key={st.id}>
-								<li className="transition-all duration-200  group-hover:text-green-500">
-									{st.name}
-								</li>
-								<span className="relative inline-block before:absolute before:block ">
-									<span className="relative text-slate-400">
-										<svg
-											width="33"
-											height="33"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M14.718 1.502c.741-1.457 2.823-1.457 3.564 0l4.163 8.178c.192.377.498.684.875.875l8.178 4.163c1.457.741 1.457 2.823 0 3.564l-8.178 4.163a1.999 1.999 0 0 0-.875.875l-4.163 8.178c-.741 1.457-2.823 1.457-3.564 0l-4.163-8.178a1.999 1.999 0 0 0-.875-.875l-8.178-4.163c-1.457-.741-1.457-2.823 0-3.564l8.178-4.163c.377-.191.684-.498.875-.875l4.163-8.178Z"
-												fill="#D9D9D9"
-											/>
-										</svg>
-									</span>
-								</span>
-							</div>
-						))}
-					</ul>
-
-					<ul className=" flex overflow-hidden text-4xl font-medium uppercase text-slate-400">
-						{servicesBottom.map((sb) => (
-							<div
-								className=" group flex flex-none space-x-16 px-8"
-								key={sb.id}
-							>
-								<li className="transition-all duration-200  group-hover:text-green-500">
-									{sb.name}
-								</li>
-								<span className="relative inline-block before:absolute before:block ">
-									<span className="relative text-slate-400">
-										<svg
-											width="33"
-											height="33"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M14.718 1.502c.741-1.457 2.823-1.457 3.564 0l4.163 8.178c.192.377.498.684.875.875l8.178 4.163c1.457.741 1.457 2.823 0 3.564l-8.178 4.163a1.999 1.999 0 0 0-.875.875l-4.163 8.178c-.741 1.457-2.823 1.457-3.564 0l-4.163-8.178a1.999 1.999 0 0 0-.875-.875l-8.178-4.163c-1.457-.741-1.457-2.823 0-3.564l8.178-4.163c.377-.191.684-.498.875-.875l4.163-8.178Z"
-												fill="#D9D9D9"
-											/>
-										</svg>
-									</span>
-								</span>
-							</div>
-						))}
-					</ul>
-				</section> */}
-
 				<section className="services  py-8 md:py-32">
 					<div className="container">
 						<h2 className="text-3xl font-medium md:text-center md:text-6xl">
@@ -192,8 +137,8 @@ export default function Home() {
 						<div className="mt-4 grid-cols-3 gap-x-6 md:grid">
 							<ServiceCard
 								icon="/coding-language-icons.png"
-								title="Professional Website Design Services"
-								content="Our team of expert designers will work with you to create a visually stunning website that is tailored to your specific needs and goals. We specialize in creating responsive websites that are optimized for search engines and user experience. We also provide responsive website design services to ensure that your website looks great on all devices."
+								title="Professional Web Development Services"
+								content="Our team of expert UI/UX will work with you to create a visually stunning website that is tailored to your specific needs and goals. We specialize in creating responsive websites that are optimized for search engines and user experience. We also provide responsive website design services to ensure that your website looks great on all devices."
 							/>
 							<ServiceCard
 								icon="/ecommerce-icons.png"
@@ -255,11 +200,6 @@ export default function Home() {
 						</svg>
 
 						<div className="relative">
-							{/* <img
-								className="mx-auto h-8"
-								src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-slate-800-and-indigo-600-text.svg"
-								alt="Workcation"
-							/> */}
 							<blockquote className="mt-10">
 								<div className="mx-auto max-w-3xl text-2xl font-medium leading-9 md:text-center">
 									<p>
@@ -305,7 +245,13 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="portfolio  py-8 md:py-32">
+				<section className="featured  md:pt-32">
+					<h2 className="mb-3 text-center text-3xl font-medium md:text-6xl">
+						Featured Project
+					</h2>
+					<img src="/featured-banner.jpg" alt="vehicle tracking system" />
+				</section>
+				<section className="portfolio py-8 md:py-32">
 					<div className="container">
 						<h2 className="text-3xl font-medium md:text-6xl">Our Work</h2>
 						<div className="md:w-5/12">
