@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<ThemeProvider>
 			<Head>
+				<meta property="og:image" content="/og.jpg" />
 				<link rel="canonical" href={canonicalURL} />
 			</Head>
 			<Layout>
