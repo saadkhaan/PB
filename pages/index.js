@@ -245,12 +245,12 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
-				<section className="featured  md:pt-32">
+				{/* <section className="featured  md:pt-32">
 					<h2 className="mb-3 text-center text-3xl font-medium md:text-6xl">
 						Featured Project
 					</h2>
 					<img src="/featured-banner.jpg" alt="vehicle tracking system" />
-					{/* <div className="container">
+					<div className="container">
 						<video
 							autoplay
 							loop
@@ -263,8 +263,8 @@ export default function Home() {
 							<source src="/featured-project.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>
-					</div> */}
-				</section>
+					</div>
+				</section> */}
 				<section className="portfolio py-8 md:py-32">
 					<div className="container">
 						<h2 className="text-3xl font-medium md:text-6xl">Our Work</h2>
