@@ -8,6 +8,7 @@ import ServiceCard from "../components/ServiceCard";
 import Scroller from "../components/Scroller";
 import CallToAction from "../components/CallToAction";
 import { motion } from "framer-motion";
+import Clients from "../components/Clients";
 
 export default function Home() {
 	const { theme, setTheme } = useTheme();
@@ -84,8 +85,8 @@ export default function Home() {
 											pathLength: [0, 1],
 										}}
 										transition={{
-											duration: 5,
-											ease: "easeInOut",
+											duration: 2,
+											ease: "linear",
 										}}
 										className="pointer-events-none stroke-slate-400/50 dark:stroke-slate-600"
 									/>
@@ -137,17 +138,17 @@ export default function Home() {
 						<div className="mt-4 grid-cols-3 gap-x-6 md:grid">
 							<ServiceCard
 								icon="/coding-language-icons.png"
-								title="Professional Web Development Services"
+								title="Customized Web Development"
 								content="Our team of expert UI/UX will work with you to create a visually stunning website that is tailored to your specific needs and goals. We specialize in creating responsive websites that are optimized for search engines and user experience. We also provide responsive website design services to ensure that your website looks great on all devices."
 							/>
 							<ServiceCard
 								icon="/ecommerce-icons.png"
-								title="E-commerce Development Services"
+								title="E-commerce Development"
 								content="Our e-commerce websites are designed to help you sell more products and services online. We provide everything you need to set up an online store, including shopping cart integration, payment gateway integration, and inventory management. We also offer ongoing support and maintenance to ensure that your e-commerce website runs smoothly."
 							/>
 							<ServiceCard
 								icon="/social-media-icons.png"
-								title="Digital Marketing Services"
+								title="Digital Marketing"
 								content="We help you promote your website and business online through effective digital marketing strategies. Our services include SEO, PPC, social media marketing, and email marketing. We work closely with our clients to understand their specific needs and goals and then create a digital marketing strategy that is tailored to their specific needs."
 							/>
 						</div>
@@ -245,6 +246,12 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+
+				<section className="clients py-16">
+					<div className="container">
+						<Clients />
+					</div>
+				</section>
 				{/* <section className="featured  md:pt-32">
 					<h2 className="mb-3 text-center text-3xl font-medium md:text-6xl">
 						Featured Project
@@ -277,7 +284,7 @@ export default function Home() {
 						</div>
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-800 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/car.png"
@@ -292,11 +299,11 @@ export default function Home() {
 									<div className="card__details-header group flex  items-center">
 										<h3 className="text-xl text-slate-800 dark:text-slate-300 md:text-2xl">
 											<a
-												href="https://limousine4less.us"
+												href="https://galvestonexpressshuttle.com"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												Limousine 4 Less
+												Galveston Express Shuttle
 											</a>
 										</h3>
 										<svg

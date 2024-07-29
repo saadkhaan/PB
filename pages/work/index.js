@@ -212,7 +212,7 @@ export default function work() {
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
 							{/* Limousine 4 Less */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#BB133E] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/limo-front-view.png"
@@ -225,11 +225,11 @@ export default function work() {
 									<div className="card__details-header group flex  items-center">
 										<h3 className="text-xl  md:text-2xl">
 											<a
-												href="https://limousine4less.us"
+												href="https://galvestonexpressshuttle.com"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												Limousine 4 Less
+												Galveston Express Shuttle
 											</a>
 										</h3>
 										<svg
@@ -300,6 +300,58 @@ export default function work() {
 						</div>
 					</div>
 					{/* Section 2 */}
+					{/* Section 3 */}
+					<div className="row mt-28">
+						<h3 className="block text-2xl md:mb-20 md:text-center md:text-5xl">
+							E-commerce / Shopify, WooCommerce
+						</h3>
+						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
+							{/* Summer Salt */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/summer-salt.svg"
+											alt="Summer Salt Dubai"
+											className="mx-auto h-auto w-48 md:mt-16 md:w-72"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex  items-center">
+										<h3 className="text-xl  md:text-2xl">
+											<a
+												href="https://summer-salt.ae"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Summer Salt (Clothing)
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Website Design, Web Development and Social Media Marketing
+									</p>
+								</div>
+							</div>
+							{/* Summer Salt */}
+						</div>
+					</div>
+					{/* Section 3 */}
 				</div>
 			</section>
 		</>
