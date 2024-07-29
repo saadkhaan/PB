@@ -312,7 +312,7 @@ export default function work() {
 									<div className="card__image relative">
 										<img
 											src="/summer-salt.svg"
-											alt="Summer Salt Dubai"
+											alt="Summer Salt Fashion Dubai"
 											className="mx-auto h-auto w-48 md:mt-16 md:w-72"
 										/>
 									</div>
