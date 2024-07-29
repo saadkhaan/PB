@@ -28,6 +28,187 @@ export default function work() {
 							<span className="font-normal">Here are a few highlights</span>.
 						</p>
 					</div>
+					{/* Ecommerce Section */}
+					<div className="row mt-28">
+						<h3 className="block text-2xl md:mb-20 md:text-center md:text-5xl">
+							E-commerce / Shopify, WooCommerce
+						</h3>
+						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
+							{/* Summer Salt */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/summer-salt.svg"
+											alt="Summer Salt Fashion Dubai"
+											className="mx-auto mt-14 h-auto w-48 md:mt-16 md:w-72"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex items-center">
+										<h3 className="text-xl  md:text-2xl">
+											<a
+												href="https://summer-salt.ae"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Summer Salt (Clothing)
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Website Design, Web Development and Social Media Marketing
+									</p>
+								</div>
+							</div>
+							{/* Summer Salt */}
+							{/* TT */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-100 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/TomorrowTech-Logo.svg"
+											alt="Logo of Tomorrow Tech Dubai"
+											className="mx-auto h-auto w-48 md:mt-12 md:w-40"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex  items-center">
+										<h3 className="text-xl  md:text-2xl">
+											<a
+												href="https://ttofficial.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Tomorrow Tech (TT)
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Website Design, Web Development
+									</p>
+								</div>
+							</div>
+							{/* TT */}
+							{/* Tallow Bias */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-white before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/tallow-logo.svg"
+											alt="Logo of Tallow Bias Dubai"
+											className="mx-auto h-auto w-48 md:mt-16 md:w-48"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex  items-center">
+										<h3 className="text-xl  md:text-2xl">
+											<a
+												href="https://thetallowbias.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Tallow Bias
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Website Design, Web Development
+									</p>
+								</div>
+							</div>
+							{/* Tallow Bias */}
+							{/* House of Wisdom */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#8AAC8C] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/how.webp"
+											alt="Logo of House of Wisdom Dubai"
+											className="mx-auto h-auto w-16 md:-mt-2 md:w-32"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex  items-center">
+										<h3 className="text-xl  md:text-2xl">
+											<a
+												href="https://houseofwisdom.me/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												House of Wisdom
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Website Design, Web Development
+									</p>
+								</div>
+							</div>
+							{/* Tallow Bias */}
+						</div>
+					</div>
+					{/* E-commerce Section */}
 					<div className="portfolio-container mt-12 md:mt-20">
 						<h3 className="block text-2xl md:mb-20 md:text-center md:text-5xl">
 							Corporate Websites
@@ -300,58 +481,6 @@ export default function work() {
 						</div>
 					</div>
 					{/* Section 2 */}
-					{/* Section 3 */}
-					<div className="row mt-28">
-						<h3 className="block text-2xl md:mb-20 md:text-center md:text-5xl">
-							E-commerce / Shopify, WooCommerce
-						</h3>
-						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
-							{/* Summer Salt */}
-							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
-									<div className="card__image relative">
-										<img
-											src="/summer-salt.svg"
-											alt="Summer Salt Fashion Dubai"
-											className="mx-auto h-auto w-48 md:mt-16 md:w-72"
-										/>
-									</div>
-								</div>
-								<div className="card__details">
-									<div className="card__details-header group flex  items-center">
-										<h3 className="text-xl  md:text-2xl">
-											<a
-												href="https://summer-salt.ae"
-												target="_blank"
-												rel="noopener noreferrer"
-											>
-												Summer Salt (Clothing)
-											</a>
-										</h3>
-										<svg
-											width="16"
-											height="10"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
-										>
-											<path
-												fillRule="evenodd"
-												clipRule="evenodd"
-												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
-												fill="#1F2937"
-											/>
-										</svg>
-									</div>
-									<p className="text-base  md:text-lg">
-										Website Design, Web Development and Social Media Marketing
-									</p>
-								</div>
-							</div>
-							{/* Summer Salt */}
-						</div>
-					</div>
-					{/* Section 3 */}
 				</div>
 			</section>
 		</>

@@ -3,6 +3,7 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/autoplay";
 
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -12,31 +13,23 @@ const Clients = () => {
 		<Swiper
 			spaceBetween={30}
 			slidesPerView={4}
-			navigation
-			pagination={{ clickable: true }}
-			scrollbar={{ draggable: true }}
-			onSlideChange={() => console.log("slide change")}
-			onSwiper={(swiper) => console.log(swiper)}
+			navigation={true}
+			centeredSlides={true}
+			loop={true}
 			wrapperClass="items-center"
-			autoplay
+			autoplay={{
+				delay: 300,
+				disableOnInteraction: false,
+			}}
 		>
 			<SwiperSlide>
-				<img
-					src="https://f3n7g6g4.rocketcdn.me/wp-content/uploads/2021/04/CWL-Logo.png"
-					className="w-52"
-				/>
+				<img src="/CWL-Logo.png" className="w-52" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img
-					src="https://kgv.ae/wp-content/uploads/2023/02/logo.svg"
-					className="w-52"
-				/>
+				<img src="/kgv-logo.svg" className="w-52" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img
-					src="https://edenred.ae/wp-content/uploads/2021/02/Logo_Edenred_Digital-use.svg"
-					className="w-52"
-				/>
+				<img src="/Logo_Edenred_Digital-use.svg" className="w-52" />
 			</SwiperSlide>
 			<SwiperSlide>
 				<img
