@@ -184,7 +184,7 @@ export default function Home() {
 												target="_blank"
 												rel="noopener noreferrer"
 											>
-												Summer Salt (Clothing)
+												Summer Salt (Shopify E-commerce)
 											</a>
 										</h3>
 										<svg
@@ -203,7 +203,8 @@ export default function Home() {
 										</svg>
 									</div>
 									<p className="text-base  md:text-lg">
-										Website Design, Web Development and Social Media Marketing
+										Website Design, Shopify Web Development and Social Media
+										Marketing
 									</p>
 								</div>
 							</div>
