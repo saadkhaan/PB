@@ -162,7 +162,7 @@ export default function Home() {
 							<p className="mt-2 text-lg   md:font-light">
 								We&apos;ve worked on numerous intriguing projects with some
 								fantastic firms, but we won&apos;t name them all.
-								<span className="font-normal">Here are a few highlights</span>.
+								<span className="font-normal"> Here are a few highlights</span>.
 							</p>
 						</div>
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">

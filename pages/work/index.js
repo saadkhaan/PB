@@ -25,7 +25,7 @@ export default function work() {
 						<p className="mt-2 md:text-lg md:font-light">
 							We&apos;ve worked on numerous intriguing projects with some
 							fantastic firms, but we won&apos;t name them all.
-							<span className="font-normal">Here are a few highlights</span>.
+							<span className="font-normal"> Here are a few highlights</span>.
 						</p>
 					</div>
 					{/* Ecommerce Section */}
