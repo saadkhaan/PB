@@ -36,7 +36,7 @@ export default function work() {
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
 							{/* Summer Salt */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/summer-salt.svg"
@@ -79,7 +79,7 @@ export default function work() {
 							{/* Summer Salt */}
 							{/* TT */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-100 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-100 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/TomorrowTech-Logo.svg"
@@ -122,7 +122,7 @@ export default function work() {
 							{/* TT */}
 							{/* Tallow Bias */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-white before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-white before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/tallow-logo.svg"
@@ -165,7 +165,7 @@ export default function work() {
 							{/* Tallow Bias */}
 							{/* House of Wisdom */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#8AAC8C] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#8AAC8C] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/how.webp"
@@ -215,7 +215,7 @@ export default function work() {
 						</h3>
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
 							<div className="card flex flex-col">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#000A13] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#000A13] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/mic.png"
@@ -256,7 +256,7 @@ export default function work() {
 								</div>
 							</div>
 							<div className="card flex flex-col">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#041243] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#041243] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/card.png"
@@ -298,7 +298,7 @@ export default function work() {
 							</div>
 
 							<div className="card flex flex-col">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/spade-logo.svg"
@@ -341,7 +341,7 @@ export default function work() {
 
 							{/* KGV */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-900 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-900 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/kgv-logo.svg"
@@ -393,7 +393,7 @@ export default function work() {
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
 							{/* Limousine 4 Less */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-slate-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/limo-front-view.png"
@@ -437,7 +437,7 @@ export default function work() {
 
 							{/* Black Cab Houston */}
 							<div className="card flex flex-col ">
-								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:max-h-max before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-neutral-950 before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
 											src="/car.png"
