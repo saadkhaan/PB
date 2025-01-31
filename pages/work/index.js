@@ -34,6 +34,49 @@ export default function work() {
 							E-commerce / Shopify, WooCommerce
 						</h3>
 						<div className="mt-8 grid grid-cols-1 gap-x-4 gap-y-16 md:grid-cols-2">
+							{/* Amicis */}
+							<div className="card flex flex-col ">
+								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#000] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
+									<div className="card__image relative">
+										<img
+											src="/amicis-logo.svg"
+											alt="Amicis - flower shop in Dubai"
+											className="mx-auto mt-14 h-auto w-48 md:mt-16 md:w-72"
+										/>
+									</div>
+								</div>
+								<div className="card__details">
+									<div className="card__details-header group flex items-center">
+										<h3 className="text-xl md:text-2xl">
+											<a
+												href="https://amicis.ae"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Amicis
+											</a>
+										</h3>
+										<svg
+											width="16"
+											height="10"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+											className="ml-2 transform transition-all duration-200 group-hover:ml-4"
+										>
+											<path
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M10.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L12.586 6H1a1 1 0 0 1 0-2h11.586l-2.293-2.293a1 1 0 0 1 0-1.414Z"
+												fill="#1F2937"
+											/>
+										</svg>
+									</div>
+									<p className="text-base  md:text-lg">
+										Shopify Web Development
+									</p>
+								</div>
+							</div>
+							{/* Amicis */}
 							{/* Summer Salt */}
 							<div className="card flex flex-col ">
 								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#F8F5F0] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
@@ -72,7 +115,8 @@ export default function work() {
 										</svg>
 									</div>
 									<p className="text-base  md:text-lg">
-										Website Design, Web Development and Social Media Marketing
+										Website Design, Shopify Web Development and Social Media
+										Marketing
 									</p>
 								</div>
 							</div>
