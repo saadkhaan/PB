@@ -39,7 +39,7 @@ export default function work() {
 								<div className="card-bg relative h-[200px] px-3 pt-6 before:absolute before:-inset-1 before:block before:h-48 before:origin-top-left  before:scale-x-75 before:transform before:rounded-lg before:bg-[#000] before:transition before:duration-500 before:ease-[cubic-bezier(0.79,0.14,0.15,0.86)] before:hover:scale-x-100 md:h-[300px] md:before:h-72">
 									<div className="card__image relative">
 										<img
-											src="/amicis-logo.svg"
+											src="/Amicis-logo.svg"
 											alt="Amicis - flower shop in Dubai"
 											className="mx-auto mt-14 h-auto w-48 md:mt-16 md:w-72"
 										/>
